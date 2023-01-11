@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://madar-ai-project123.onrender.com', {
+    const response = await fetch('https://bitlabs-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
